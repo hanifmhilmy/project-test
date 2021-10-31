@@ -7,11 +7,11 @@ import (
 /* Time Complexity:  */
 
 func main() {
-	fmt.Println(findSequence([]int{20, 7, 8, 10, 2, 5, 6}, []int{7, 8, 10}))
-	fmt.Println(findSequence([]int{20, 7, 8, 10, 2, 5, 6, 9}, []int{8, 7, 9, 10}))
-	fmt.Println(findSequence([]int{20, 7, 8, 10, 2, 5, 6, 9}, []int{7, 10, 9}))
-	fmt.Println(findSequence([]int{20, 7, 10, 9, 2, 5, 6, 9}, []int{7, 10, 9}))
-	fmt.Println(findSequence([]int{20, 7, 10, 9, 2, 5, 6, 9}, []int{5, 6, 9}))
+	fmt.Println("Test case#1 ", findSequence([]int{20, 7, 8, 10, 2, 5, 6}, []int{7, 8, 10}))
+	fmt.Println("Test case#2 ", findSequence([]int{20, 7, 8, 10, 2, 5, 6, 9}, []int{8, 7, 9, 10}))
+	fmt.Println("Test case#3 ", findSequence([]int{20, 7, 8, 10, 2, 5, 6, 9}, []int{7, 10, 9}))
+	fmt.Println("Test case#4 ", findSequence([]int{20, 7, 10, 9, 2, 5, 6, 9}, []int{7, 10, 9}))
+	fmt.Println("Test case#5 ", findSequence([]int{20, 7, 10, 9, 2, 5, 6, 9}, []int{5, 6, 9}))
 }
 
 func findSequence(nums, seq []int) bool {

@@ -41,14 +41,14 @@ func main() {
 		},
 	}
 
-	fmt.Println(searchBST(testNode, 6))
-	fmt.Println(searchBST(testNode, 7))
-	fmt.Println(searchBST(testNode, 8))
-	fmt.Println(searchBST(testNode, 9))
-	fmt.Println(searchBST(testNode, 10))
-	fmt.Println(searchBST(testNode, 14))
-	fmt.Println(searchBST(testNode, 3))
-	fmt.Println(searchBST(testNode, 1))
+	fmt.Println("Test case#1 ", searchBST(testNode, 6))
+	fmt.Println("Test case#2 ", searchBST(testNode, 7))
+	fmt.Println("Test case#3 ", searchBST(testNode, 8))
+	fmt.Println("Test case#4 ", searchBST(testNode, 9))
+	fmt.Println("Test case#5 ", searchBST(testNode, 10))
+	fmt.Println("Test case#6 ", searchBST(testNode, 14))
+	fmt.Println("Test case#7 ", searchBST(testNode, 3))
+	fmt.Println("Test case#8 ", searchBST(testNode, 1))
 }
 
 func searchBST(root *TreeNode, val int) bool {
